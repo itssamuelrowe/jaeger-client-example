@@ -39,7 +39,7 @@ unique_ptr<Span> addChildSpan(const unique_ptr<Span>& parent, const char* name) 
 
 	cout << "[info] Successfully created tracer named '" << name << "'.\n";
 
-	return child;
+	return span;
 }
 
 void function1() {
